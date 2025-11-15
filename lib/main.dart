@@ -40,7 +40,7 @@ class _SiswaListState extends State<SiswaList> {
     try {
       Dio dio = Dio();
       final response = await dio.get(
-        "http://103.94.4.198/absensi_sekolah/config/get_siswa.php",
+        "",
       );
 
       debugPrint("Response: ${response.data}");
